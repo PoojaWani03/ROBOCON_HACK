@@ -18,6 +18,10 @@ app.get("/landing",(req,res)=>{
     res.render("index.html");
 });
 
+app.get("/vibration",(req,res)=>{
+    res.render("Vibration.html");
+});
+
 app.get("/Traffic",(req,res)=>{
     res.render("Traffic.html");
 })
