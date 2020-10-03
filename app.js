@@ -21,6 +21,9 @@ app.get("/landing",(req,res)=>{
 app.get("/Vibration",(req,res)=>{
     res.render("Vibration.html");
 });
+app.get("/spo2",(req,res)=>{
+    res.render("spo2.html");
+});
 
 app.get("/Traffic",(req,res)=>{
     res.render("Traffic.html");
