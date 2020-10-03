@@ -18,7 +18,7 @@ app.get("/landing",(req,res)=>{
     res.render("index.html");
 });
 
-app.get("/vibration",(req,res)=>{
+app.get("/Vibration",(req,res)=>{
     res.render("Vibration.html");
 });
 
