@@ -31,6 +31,17 @@ app.get("/casestudy",(req,res)=>{
 app.get("/Traffic",(req,res)=>{
     res.render("Traffic.html");
 })
+app.get("/Impact",(req,res)=>{
+    res.render("impact.html");
+})
+app.get("/Chatbot",(req,res)=>{
+    res.render("Chatbot.html");
+})
+
+
+app.get("/About",(req,res)=>{
+    res.render("AboutPage.html");
+})
 
 app.listen(process.env.PORT ||3000,()=>{
     console.log("Server started at port 3000");

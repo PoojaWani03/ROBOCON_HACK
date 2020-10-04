@@ -1,0 +1,52 @@
+.u-section-1 {background-image: none}
+.u-section-1 .u-sheet-1 {min-height: 374px}
+.u-section-1 .u-text-1 {width: 800px; margin: 60px auto 0}
+.u-section-1 .u-text-2 {width: 800px; margin: 30px auto 0}
+.u-section-1 .u-btn-1 {background-image: none; text-transform: uppercase; font-size: 1.125rem; letter-spacing: 2px; margin: 30px auto 60px; padding: 6px 24px 7px 23px} 
+
+@media (max-width: 991px){ .u-section-1 .u-text-1 {width: 720px}
+.u-section-1 .u-text-2 {width: 720px} }
+
+@media (max-width: 767px){ .u-section-1 .u-text-1 {width: 540px}
+.u-section-1 .u-text-2 {width: 540px} }
+
+@media (max-width: 575px){ .u-section-1 .u-text-1 {width: 340px}
+.u-section-1 .u-text-2 {width: 340px} }.u-section-2 {background-image: linear-gradient(#2cccc4, #ffb400)}
+.u-section-2 .u-sheet-1 {min-height: 618px}
+.u-section-2 .u-video-1 {height: 360px; width: 640px; margin: 39px auto 0}
+.u-section-2 .u-text-1 {width: 680px; animation-duration: 1000ms; text-shadow: 2px 2px 8px rgba(0,0,0,0.4); font-family: "Allerta Stencil"; margin: 30px auto 0}
+.u-section-2 .u-text-2 {width: 680px; margin: 20px auto 39px} 
+
+@media (max-width: 767px){ .u-section-2 .u-sheet-1 {min-height: 549px}
+.u-section-2 .u-video-1 {height: 300px; margin-top: 60px; margin-right: initial; margin-left: initial; width: auto}
+.u-section-2 .u-text-1 {width: 540px; margin-top: 20px; margin-left: 0; margin-right: 0}
+.u-section-2 .u-text-2 {width: 540px; margin-bottom: 40px} }
+
+@media (max-width: 575px){ .u-section-2 .u-sheet-1 {min-height: 473px}
+.u-section-2 .u-video-1 {height: 190px; width: auto; margin-right: initial; margin-left: initial}
+.u-section-2 .u-text-1 {width: 340px}
+.u-section-2 .u-text-2 {width: 340px; margin-bottom: 60px} }.u-section-3 {background-image: linear-gradient(#ffb400, #2cccc4)}
+.u-section-3 .u-sheet-1 {min-height: 598px}
+.u-section-3 .u-text-1 {margin: 60px 20px 0}
+.u-section-3 .u-text-2 {margin: 20px 0 0}
+.u-section-3 .u-gallery-1 {height: 364px; grid-gap: 17px; margin: 30px auto 0}
+.u-section-3 .u-gallery-inner-1 {grid-template-columns: repeat(3, auto); grid-gap: 17px}
+.u-section-3 .u-over-slide-1 {background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)); padding: 20px}
+.u-section-3 .u-over-slide-2 {background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)); padding: 20px}
+.u-section-3 .u-over-slide-3 {background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)); padding: 20px}
+.u-section-3 .u-btn-1 {margin: 30px auto 60px} 
+
+@media (max-width: 1199px){ .u-section-3 .u-sheet-1 {min-height: 429px}
+.u-section-3 .u-text-1 {margin-left: 0; margin-right: 0}
+.u-section-3 .u-gallery-1 {height: 300px; grid-template-columns: repeat(3, auto); margin-right: initial; margin-left: initial} }
+
+@media (max-width: 991px){ .u-section-3 .u-sheet-1 {min-height: 818px}
+.u-section-3 .u-gallery-1 {height: 689px; grid-template-columns: repeat(2, auto); margin-right: initial; margin-left: initial}
+.u-section-3 .u-gallery-inner-1 {grid-template-columns: repeat(2, auto)} }
+
+@media (max-width: 767px){ .u-section-3 .u-sheet-1 {min-height: 1679px}
+.u-section-3 .u-gallery-1 {height: 1550px; grid-template-columns: repeat(1, auto); margin-right: initial; margin-left: initial}
+.u-section-3 .u-gallery-inner-1 {grid-template-columns: repeat(1, auto)} }
+
+@media (max-width: 575px){ .u-section-3 .u-sheet-1 {min-height: 1105px}
+.u-section-3 .u-gallery-1 {height: 976px; margin-right: initial; margin-left: initial} }
